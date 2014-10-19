@@ -1,5 +1,6 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Casey Stuff/Scripts/RedditFetch.cs">
     <Files>
       <File FileName="Assets/FeedManager.cs" Line="1" Column="1" />
@@ -10,6 +11,16 @@
       <File FileName="Assets/Clock.cs" Line="1" Column="1" />
       <File FileName="Assets/OVR/Scripts/OVRDevice.cs" Line="322" Column="28" />
       <File FileName="Assets/Casey Stuff/Scripts/RedditFetch.cs" Line="46" Column="3" />
+=======
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/OVR/Scripts/OVRTouchpad.cs">
+    <Files>
+      <File FileName="Assets/testingWeb.cs" Line="1" Column="1" />
+      <File FileName="Assets/Post.cs" Line="1" Column="1" />
+      <File FileName="../../../Documents/RedditFetch.cs" Line="24" Column="3" />
+      <File FileName="Assets/Casey Stuff/Scripts/SpeechToAction.cs" Line="8" Column="21" />
+      <File FileName="Assets/SpeakNow/test.cs" Line="16" Column="58" />
+      <File FileName="Assets/OVR/Scripts/OVRTouchpad.cs" Line="33" Column="3" />
+>>>>>>> FETCH_HEAD
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
