@@ -3,9 +3,9 @@ using System.Collections;
 using System;
 using System.Collections.Generic;
 
-abstract class SpeechToAction : MonoBehaviour {
+public abstract class SpeechToAction : MonoBehaviour {
 	
-	private Dictionary<string, Func<string[],bool>> _actions;
+	protected Dictionary<string, Func<string[],bool>> _actions;
 
 	public void Start(){
 		this.Register ();

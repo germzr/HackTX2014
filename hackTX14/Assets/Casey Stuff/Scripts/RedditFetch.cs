@@ -5,8 +5,10 @@ using System.Text.RegularExpressions;
 using SimpleJSON;
 
 public class RedditFetch : MonoBehaviour {
-
+	
 	public GameObject PostPrefab;
+	public TextMesh Label;
+	public string SubredditFeed;
 
 	private GameObject _postRoot;
 	private int _postX;
@@ -24,7 +26,9 @@ public class RedditFetch : MonoBehaviour {
 	}
 
 	IEnumerator FetchListingData() {
-		WWW www = new WWW("http://reddit.com/r/pics/.json");
+		Label.text = "/r/" + SubredditFeed;
+		string rURL = string.Format("http://reddit.com/r/{0}/.json", SubredditFeed.ToLower());
+		WWW www = new WWW(rURL);
 		yield return www;
 		
 		var json = JSON.Parse(www.text);

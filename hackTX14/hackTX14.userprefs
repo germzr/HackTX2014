@@ -1,17 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/CalendarEventDisplayer.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ContextIO.cs">
     <Files>
-      <File FileName="Assets/FeedManager.cs" Line="1" Column="1" />
-      <File FileName="Assets/Post.cs" Line="1" Column="1" />
-      <File FileName="Assets/Feed.cs" Line="1" Column="1" />
-      <File FileName="Assets/FacebookUser.cs" Line="1" Column="1" />
-      <File FileName="Assets/FacebookUserManager.cs" Line="1" Column="1" />
-      <File FileName="Assets/Clock.cs" Line="1" Column="1" />
-      <File FileName="Assets/OVR/Scripts/OVRDevice.cs" Line="1" Column="1" />
-      <File FileName="Assets/Casey Stuff/Scripts/RedditFetch.cs" Line="55" Column="46" />
-      <File FileName="Assets/CalendarEventDisplayer.cs" Line="17" Column="32" />
-      <File FileName="Assets/CalendarManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Casey Stuff/Scripts/RedditFetch.cs" Line="68" Column="46" />
+      <File FileName="Assets/ContextIO.cs" Line="28" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
