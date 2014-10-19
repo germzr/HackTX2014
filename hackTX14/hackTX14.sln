@@ -1,9 +1,13 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
+Project("{A0660397-2D04-9714-0C69-45754415CBD7}") = "hackTX14", "Assembly-CSharp-firstpass.csproj", "{16B422D7-A43D-C1BB-7149-A632344B1366}"
+EndProject
 Project("{A0660397-2D04-9714-0C69-45754415CBD7}") = "hackTX14", "Assembly-CSharp.csproj", "{835427E6-F4D3-B10C-0A9B-234AF05825E5}"
 EndProject
 Project("{A0660397-2D04-9714-0C69-45754415CBD7}") = "hackTX14", "Assembly-CSharp-Editor.csproj", "{48B19C6E-173A-0A8C-3E29-472B49A06533}"
+EndProject
+Project("{A0660397-2D04-9714-0C69-45754415CBD7}") = "hackTX14", "Assembly-UnityScript.unityproj", "{5A27D4DD-E1F4-4C91-1EE1-707905D05B71}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,6 +15,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16B422D7-A43D-C1BB-7149-A632344B1366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16B422D7-A43D-C1BB-7149-A632344B1366}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16B422D7-A43D-C1BB-7149-A632344B1366}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16B422D7-A43D-C1BB-7149-A632344B1366}.Release|Any CPU.Build.0 = Release|Any CPU
 		{835427E6-F4D3-B10C-0A9B-234AF05825E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{835427E6-F4D3-B10C-0A9B-234AF05825E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{835427E6-F4D3-B10C-0A9B-234AF05825E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -19,11 +27,15 @@ Global
 		{48B19C6E-173A-0A8C-3E29-472B49A06533}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48B19C6E-173A-0A8C-3E29-472B49A06533}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48B19C6E-173A-0A8C-3E29-472B49A06533}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A27D4DD-E1F4-4C91-1EE1-707905D05B71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A27D4DD-E1F4-4C91-1EE1-707905D05B71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A27D4DD-E1F4-4C91-1EE1-707905D05B71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A27D4DD-E1F4-4C91-1EE1-707905D05B71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-		GlobalSection(MonoDevelopProperties) = preSolution
+								GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
