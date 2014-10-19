@@ -307,11 +307,11 @@ public class OVRDevice : MonoBehaviour
 	{
 #if ( UNITY_ANDROID && !UNITY_EDITOR )
         // NOTE: Apps that have joystick/separate yaw control will also need to reset their values.
-		OVRPlayerController playerController = theDevice.GetComponentInParent<OVRPlayerController>();
+		/*OVRPlayerController playerController = theDevice.GetComponentInParent<OVRPlayerController>();
 		if ( playerController != null ) 
 		{
 			playerController.ResetOrientation();
-		}
+		}*/
 #endif
         return OVR_ResetSensorOrientation();
 	}
