@@ -2,19 +2,16 @@
 using System.Collections;
 using SimpleJSON;
 
-public class Post {
-	public string message;
-	public string picture;
+public class CalendarEvent {
+	public string title;
 	public string description;
+	public string startingDate;
 
-
-	public Post(string m, string p, string d)
-	{
-		message = m;
-		picture = p;
+	public CalendarEvent(string t, string d, string sd) {
+		title = t;
 		description = d;
+		startingDate = sd;
 	}
-
 	// Use this for initialization
 	void Start () {
 	

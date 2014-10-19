@@ -1,0 +1,30 @@
+: : Unity SpeakNow Plugin : :
+
+Make Sure You have SpeechToText.cs script in SpeakNow folder in your assests along with Plugins folder...Dont edit that file without any proper Knowledge.Just follow these instructions to use functionalities.
+
+
+1.Starting Speak function
+
+TO start Speak functionality call the function SpeechToText.StartSpeech();
+
+The result is passed as a string ...so just create a string variable in your script and assign to SpeechToText.SpeechResult()
+
+We insterted a demo scene and test script ...Just check those to know more about using.
+
+
+
+2.Display a Toast message
+
+To use Toast message just call the function with your message
+
+SpeechToText.MakeToast("Your Message Here")
+
+We insterted a demo scene and test script ...Just check those to know more about using.
+
+
+If you have any Questions regarding the usage..Message me in Unity store I will give support as quick as possible.
+
+
+
+Thanking You,
+Vishnu
