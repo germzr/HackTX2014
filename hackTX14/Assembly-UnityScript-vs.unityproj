@@ -52,6 +52,7 @@
      <None Include="Assets\OVR\OVRImageEffects\Resources\OVRLensCorrection_Mesh_CA_TW.shader" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\OVR\Shaders\TextShader3D.shader" />
+     <None Include="Assets\Documentation.txt" />
      <None Include="Assets\OVR\Shaders\Unlit Transparent HUD.shader" />
      <None Include="Assets\OVR\OVRImageEffects\Resources\OVRLensCorrection_CA.shader" />
      <None Include="Assets\Plugins\donotdelete.txt" />
