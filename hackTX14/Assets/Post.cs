@@ -1,17 +1,26 @@
 ﻿using UnityEngine;
 using System.Collections;
+using SimpleJSON;
 
 public class Post {
-	public string message;
-	public string[] link;
-	public string description;
+	private string message;
+	private string[] link;
+	private string description;
 
 
-	Post(string m, string[] l, string d)
+	Post(string s)
 	{
-		message = m;
-		link = l;
-		description = d;
+		var json = JSON.Parse(s);
+
+
+		/*
+		
+		var arr = json["data"]["children"].AsArray;
+		
+		_items = new string[arr.Count];
+		for(int i = 0; i < arr.Count; i++) {
+			_items[i] = arr[i]["data"]["title"];
+		}*/
 	}
 
 	// Use this for initialization

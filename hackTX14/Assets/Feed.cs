@@ -3,12 +3,18 @@ using System.Collections;
 
 public class Feed {
 
-	public Post post;
+	private Post[] posts;
 
-	public Feed(Post p)
+	public Feed(Post[] p)
 	{
-		post = p;
+		posts = p;
 	}
+
+	public Post[] getFeed()
+	{
+		return posts;
+	}
+
 	// Use this for initialization
 	void Start () {
 	
