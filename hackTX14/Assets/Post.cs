@@ -3,17 +3,16 @@ using System.Collections;
 using SimpleJSON;
 
 public class Post {
-	private string message;
-	private string picture;
-	private string description;
+	public string message;
+	public string picture;
+	public string description;
 
 
-	public Post(string s)
+	public Post(string m, string p, string d)
 	{
-		//var json = JSON.Parse(s);
-
-
-		//Debug.Log (message + " " + picture + " " + description);
+		message = m;
+		picture = p;
+		description = d;
 	}
 
 	// Use this for initialization
