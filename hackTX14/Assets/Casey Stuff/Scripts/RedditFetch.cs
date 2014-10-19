@@ -45,21 +45,20 @@ public class RedditFetch : MonoBehaviour {
 		yield return www;
 		
 		GameObject post = GameObject.Instantiate(PostPrefab) as GameObject;
-		post.transform.parent = _postRoot.transform;
 		int count = _postRoot.transform.childCount;
-		_postX = (count % 3) * 4;
+		_postX = (count % 3) * 2;
 
 		if(count % 3 == 0) {
 			_postY++;
 		}
 
-		Debug.Log(_postY);
-		post.transform.position = new Vector3(_postX, _postY * -4, 0);
+		post.transform.position = new Vector3(11, 6 + _postY * -2, -2 + _postX);
 
 		RedditPicturePost rpp = post.GetComponent<RedditPicturePost>();
 		rpp.FindReferences();
 		rpp.ImageMat.mainTexture = www.texture;
-		rpp.Text.text = title;
+		rpp.Text.text = "";//title;
+		post.transform.parent = _postRoot.transform;
 	}
 
 	bool StringPointsToImage(string urlString) {
