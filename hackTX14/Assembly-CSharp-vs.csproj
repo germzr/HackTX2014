@@ -83,12 +83,15 @@
      <Compile Include="Assets\OVR\Scripts\OVRVolumeControl.cs" />
      <Compile Include="Assets\Post.cs" />
      <Compile Include="Assets\RedditFetch.cs" />
+     <Compile Include="Assets\SpeakNow\SpeechToText.cs" />
+     <Compile Include="Assets\SpeakNow\test.cs" />
      <Compile Include="Assets\testingWeb.cs" />
      <None Include="Assets\OVR\OVRImageEffects\Resources\OVRLensCorrection_Mesh.shader" />
      <None Include="Assets\OVR\OVRImageEffects\Resources\OVRLensCorrection_Mesh_CA.shader" />
      <None Include="Assets\OVR\OVRImageEffects\Resources\OVRLensCorrection_Mesh_CA_TW.shader" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\OVR\Shaders\TextShader3D.shader" />
+     <None Include="Assets\Documentation.txt" />
      <None Include="Assets\OVR\Shaders\Unlit Transparent HUD.shader" />
      <None Include="Assets\OVR\OVRImageEffects\Resources\OVRLensCorrection_CA.shader" />
      <None Include="Assets\Plugins\donotdelete.txt" />
