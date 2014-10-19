@@ -46,6 +46,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Calendar.cs" />
+     <Compile Include="Assets\CalendarEvent.cs" />
+     <Compile Include="Assets\CalendarManager.cs" />
      <Compile Include="Assets\Clock.cs" />
      <Compile Include="Assets\FacebookUser.cs" />
      <Compile Include="Assets\FacebookUserManager.cs" />
