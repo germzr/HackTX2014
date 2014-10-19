@@ -104,7 +104,7 @@ TextMesh:
   m_CharacterSize: 1
   m_LineSpacing: 1
   m_Anchor: 0
-  m_Alignment: 0
+  m_Alignment: 1
   m_TabSize: 4
   m_FontSize: 0
   m_FontStyle: 0
@@ -156,36 +156,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4975796769e6405fb21ee94dab4c93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &209856683
+--- !u!1 &211934447
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 209856688}
-  - 33: {fileID: 209856687}
-  - 65: {fileID: 209856686}
-  - 23: {fileID: 209856685}
-  - 114: {fileID: 209856684}
+  - 4: {fileID: 211934451}
+  - 114: {fileID: 211934448}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Reddit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &209856684
+--- !u!114 &211934448
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 209856683}
+  m_GameObject: {fileID: 211934447}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a431614aea4d84a07a8450368637334c, type: 3}
+  m_Script: {fileID: 11500000, guid: 261c67a65288b46ac93a26ed5e4b2479, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  PostPrefab: {fileID: 100004, guid: 062656ce4416b4e359277534499337c8, type: 2}
+=======
   url: https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfa1/v/t1.0-1/c15.28.191.191/s160x160/428771_3323266208416_848648062_n.jpg?oh=55a975a405d0c0ba65b421161d92db41&oe=54F45428&__gda__=1421074788_a27a53cb6ed6c7a441966524002ff332
 --- !u!23 &209856685
 Renderer:
@@ -297,18 +297,26 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 211934447}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+>>>>>>> FETCH_HEAD
 --- !u!4 &211934451
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 211934447}
+<<<<<<< HEAD
+  m_LocalRotation: {x: 0, y: .707106829, z: 0, w: .707106709}
+  m_LocalPosition: {x: -15, y: 0, z: 0}
+  m_LocalScale: {x: 20, y: 10, z: 1}
+  m_Children: []
+=======
   m_LocalRotation: {x: 0, y: -.707106829, z: 0, w: .707106709}
   m_LocalPosition: {x: -12.7541342, y: .384254932, z: -.386775255}
   m_LocalScale: {x: 10, y: 10, z: 1}
   m_Children:
   - {fileID: 1326698556}
   - {fileID: 608940324}
+>>>>>>> FETCH_HEAD
   m_Father: {fileID: 0}
 --- !u!114 &211934452
 MonoBehaviour:
@@ -709,8 +717,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 997770072}
-  m_LocalRotation: {x: .5107916, y: -3.31126664e-08, z: .859704614, w: -1.59520226e-07}
-  m_LocalPosition: {x: 15.39118, y: -3.111995e-07, z: 1.41489136}
+  m_LocalRotation: {x: 0, y: -.707106829, z: 0, w: .707106709}
+  m_LocalPosition: {x: 15, y: 0, z: 0}
   m_LocalScale: {x: 20, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -834,8 +842,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1316432851}
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: -1.62920685e-07}
-  m_LocalPosition: {x: -.697663307, y: 0, z: 10.4650383}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 15}
   m_LocalScale: {x: 20, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
