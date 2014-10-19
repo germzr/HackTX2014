@@ -3,10 +3,10 @@ using System.Collections;
 using SimpleJSON;
 
 public class FacebookUser {
-	string first_name;
-	string last_name;
-	string picture;
-	string bio;
+	public string first_name;
+	public string last_name;
+	public string picture;
+	public string bio;
 	public FacebookUser(string s)
 	{
 		var json = JSON.Parse(s);
