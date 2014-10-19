@@ -10,12 +10,9 @@ public class CalendarManager : MonoBehaviour {
 	void Start () {
 		calendar = new Calendar (calendarID, textAsset.text);
 
-		/*
-		foreach (CalendarEvent calendarEvent in calendar.calendarEvents) {
-			Debug.Log(calendarEvent.title + " " + calendarEvent.description + " " + calendarEvent.startingDate);		
-		}*/
+		//foreach(
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 	

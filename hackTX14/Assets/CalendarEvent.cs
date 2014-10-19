@@ -2,7 +2,7 @@
 using System.Collections;
 using SimpleJSON;
 
-public class CalendarEvent {
+public class CalendarEvent  {
 	public string title;
 	public string description;
 	public string startingDate;
