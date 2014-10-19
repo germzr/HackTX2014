@@ -4,23 +4,16 @@ using SimpleJSON;
 
 public class Post {
 	private string message;
-	private string[] link;
+	private string picture;
 	private string description;
 
 
-	Post(string s)
+	public Post(string s)
 	{
-		var json = JSON.Parse(s);
+		//var json = JSON.Parse(s);
 
 
-		/*
-		
-		var arr = json["data"]["children"].AsArray;
-		
-		_items = new string[arr.Count];
-		for(int i = 0; i < arr.Count; i++) {
-			_items[i] = arr[i]["data"]["title"];
-		}*/
+		//Debug.Log (message + " " + picture + " " + description);
 	}
 
 	// Use this for initialization

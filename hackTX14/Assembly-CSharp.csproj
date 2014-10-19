@@ -47,7 +47,10 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Clock.cs" />
+     <Compile Include="Assets\FacebookUser.cs" />
+     <Compile Include="Assets\FacebookUserManager.cs" />
      <Compile Include="Assets\Feed.cs" />
+     <Compile Include="Assets\FeedManager.cs" />
      <Compile Include="Assets\JSON Tests\CSharp\Test_CSharp.cs" />
      <Compile Include="Assets\Moonlight\DebugUtils.cs" />
      <Compile Include="Assets\Moonlight\GameUtils.cs" />
